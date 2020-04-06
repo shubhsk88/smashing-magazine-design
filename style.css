@@ -222,3 +222,40 @@ article h1 {
   height: 2rem;
   padding-top: 6rem;
 }
+
+/* Smash Container Grid */
+
+.smash-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr fr fr;
+  height: 200vh;
+  border: 1px solid red;
+}
+
+.smash-contain {
+  background-color: grey;
+  padding: 2rem;
+}
+
+.biglogo {
+  width: 25rem;
+  height: 25rem;
+  background-color: tomato;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.latest_articles {
+  width: 100%;
+  text-align: center;
+  height: 30rem;
+  background-color: white;
+}
