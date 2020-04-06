@@ -49,3 +49,49 @@ body {
   background-color: #bada55;
   padding: 2rem;
 }
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 15rem;
+  background-color: blueviolet;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-basis: 100%;
+}
+.first_head {
+  margin-right: 15rem;
+  font-size: 4rem;
+  color: black;
+  background-color: white ;
+}
+
+.right_head {
+  justify-self: right;
+  margin-right: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.square_head {
+  width: 6rem;
+  height: 6rem;
+  border: 0.3rem solid white;
+  border-radius: 1.5rem;
+  background-color: brown;
+  transform: rotate(-35deg);
+}
+
+.button_head {
+  width: 12rem;
+  height: 4rem;
+  background-color: transparent;
+  border: 0.2rem solid white;
+  margin-left: 1.3rem;
+}
