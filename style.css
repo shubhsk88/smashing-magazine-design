@@ -259,3 +259,74 @@ article h1 {
   height: 30rem;
   background-color: white;
 }
+
+/* Book COntainer */
+
+.book-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(228, 220, 220);
+}
+.book {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.book__date {
+  padding: 4rem;
+  margin-top: 4rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.book__ethical {
+  padding: 3rem 3rem 1rem 3rem;
+  font-size: 4rem;
+
+  text-align: center;
+}
+.darkness {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.book__details {
+  font-size: 2.2rem;
+  line-height: 4.5rem;
+  word-spacing: 0.3rem;
+}
+.book__button {
+  margin-top: 8rem;
+
+  font-size: 2rem;
+  border-radius: 10px;
+  border: none;
+  padding: 2rem 1rem;
+  width: 50%;
+  align-self: center;
+  background-color: #eee;
+}
+.book-photo {
+  width: 30rem;
+  margin-top: 10rem;
+  height: 30rem;
+  align-self: center;
+  background-color: cadetblue;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
