@@ -110,32 +110,61 @@ header {
   background-color: yellow;
   height: 60vh;
   display: flex;
-  padding: 20rem;
 
   flex-direction: column;
 }
+.grid-width {
+  margin: 10rem 15rem;
+}
 .grid-pic-container {
   display: flex;
+  margin-bottom: 3rem;
   padding: 1rem;
-  max-width: 500px;
-  width: 100%;
-  margin: 0 auto;
 }
+
 .grid-title {
-  font-size: 2rem;
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
   display: flex;
-  
 }
+.grid-title h2 {
+  font-size: 3rem;
+}
+
+.grid-title span {
+  margin-left: 1rem;
+}
+
 .grid-picture {
-  width: 5rem;
-  height: 5rem;
+  width: 8rem;
+  height: 8rem;
   background-color: grey;
   border-radius: 5px;
   margin-right: 3rem;
+  transform: rotate(-20deg);
 }
 
+.grid-body {
+  font-size: 4rem;
+  font-weight: bold;
+  word-spacing: 0.1rem;
+  margin-bottom: 4rem;
+  width: 70%;
+}
+
+.grid-tag {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-bottom: 3rem;
+}
 .brown {
   background-color: brown;
+}
+
+.tag {
+  font-size: 1.6rem;
 }
 
 /* Articles Section */
@@ -192,5 +221,4 @@ article h1 {
   width: 6rem;
   height: 2rem;
   padding-top: 6rem;
-  
 }
