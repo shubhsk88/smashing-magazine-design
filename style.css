@@ -330,3 +330,47 @@ article h1 {
     39% 35%
   );
 }
+
+/* Person week */
+.person_week {
+  width: 100%;
+  height: 32rem;
+  background-color: white;
+  display: flex;
+  border: 1px solid red;
+}
+
+.square_contain {
+  flex-basis: 35%;
+  align-items: center;
+  display: flex;
+  transform: rotate(-25deg);
+}
+
+.person_square {
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+  border-radius: 1.5rem;
+  background-color: lime;
+}
+
+.person_text {
+  width: 75%;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.person_text h1 {
+  color: grey;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  font-weight: lighter;
+}
+
+.person_text p {
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  line-height: 2rem;
+}
