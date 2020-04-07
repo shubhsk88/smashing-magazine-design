@@ -4,7 +4,8 @@ This is a Heat Map clone of the web page at [smashingmagazine.com](https://www.s
 
 The job is to create a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy. For inspiration, check out this image from vanseodesign.com which compares a site layout with no differentiation on the left to one with a thoughtful hierarchy on the right. Your final product will look much like the site on the right.
 
-![PROJECT: DESIGN TEARDOWN made by Shubham & Emilio](ProjectSS.png?raw=true "PROJECT: DESIGN TEARDOWN made by Shubham & Emilio")
+![PROJECT: DESIGN TEARDOWN made by Shubham & Emilio](ProjectSS.png?raw=true 'PROJECT: DESIGN TEARDOWN made by Shubham & Emilio')
+
 ## Built With
 
 - HTML,
@@ -23,7 +24,20 @@ The job is to create a grayscale heat map of the website that indicates which el
 👤 **Shubham Singh**
 
 - Github: [@shubhsk88](https://github.com/shubhsk88)
+- Twitter: [@shubhski](twitter.com/shubski)
+- Linkedin: [linkedin](https://www.linkedin.com/in/shubham-singh-130349140/)
 
 👤 **Emilio Contreras**
 
 - Github: [@emiliocm9](https://github.com/emiliocm9)
+- Twitter: [@emiliocm31](https://twitter.com/emiliocm31)
+- Email: [email](emilio.contreras97@gmail.com)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- This page is inspired by the Smashing Magazine
+- Used Google Fonts for the fonts
