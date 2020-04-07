@@ -11,6 +11,7 @@ html {
 body {
   font-size: 1.4rem;
   font-family: 'Oswald', sans-serif;
+  background-color: #f7fafc;
 }
 
 /* Nav part */
@@ -301,9 +302,8 @@ article h1 {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  height: 10rem;
+
   background-color: #e2e8f0;
-  border: 0.1rem solid black;
 }
 .latest_articles a {
   text-decoration: none;
@@ -314,7 +314,9 @@ article h1 {
   padding: 2rem 0;
   border-bottom: 2px solid red;
 }
-
+.tweet {
+  padding-bottom: 1rem;
+}
 .smash_arrow {
   background-color: #718096;
   width: 6rem;
@@ -440,7 +442,7 @@ article h1 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   width: 100vw;
-  height: 60rem;
+  height: 90rem;
 }
 
 .person__feed {
@@ -494,12 +496,13 @@ article h1 {
 /* Design Systems Section */
 .design_container {
   width: 100vw;
-  background-color: #4A5568;
+  background-color: #4a5568;
   display: flex;
   padding: 3rem;
   justify-content: space-between;
-  height: 32rem;
-  margin-top: 20rem;
+  height: 40rem;
+
+  /* margin-top: 20rem; */
 }
 
 .design_text {
@@ -533,7 +536,7 @@ article h1 {
   width: 23rem;
   background-color: white;
   height: 6rem;
-  color: #2D3748;
+  color: #2d3748;
   font-weight: bold;
   border-radius: 1rem;
 }
@@ -541,14 +544,14 @@ article h1 {
 .design_icon {
   height: 25rem;
   width: 20rem;
-  background-color:#4A5568;
+  background-color: #4a5568;
   margin-right: 4rem;
 }
 
 .design_square {
   height: 25rem;
   width: 17rem;
-  background-color: #2D3748;
+  background-color: #2d3748;
   transform: rotate(-15deg);
   border: 0.1rem solid white;
   position: relative;
@@ -563,7 +566,29 @@ article h1 {
 }
 
 .guide {
-  background-color: yellow;
+  background-color: #f7fafc;
+  padding: 4rem 6rem;
+  border-right: 1px solid #cbd5e0;
+}
+.guide__title {
+  width: 10rem;
+  height: 4rem;
+  background-color: #4a5568;
+  margin: 2rem 1rem;
+}
+
+.guide__header {
+  width: 20rem;
+  height: 8rem;
+  background-color: #4a5568;
+  margin: 2rem 1rem;
+}
+.guide__lists > * {
+  width: 15rem;
+  height: 4rem;
+  background-color: #4a5568;
+
+  margin: 1rem;
 }
 
 /* Smashing Newsletter Section */
@@ -582,7 +607,7 @@ article h1 {
   font-weight: bold;
   font-size: 5rem;
   margin-bottom: 2.5rem;
-  text-decoration-color: #CBD5E0;
+  text-decoration-color: #cbd5e0;
 }
 
 .news_text {
@@ -602,14 +627,14 @@ article h1 {
   width: 40rem;
   height: 40rem;
   border-radius: 50%;
-  background-color: #2D3748;
+  background-color: #2d3748;
   margin: 4rem auto;
 }
 
 .news_buttons {
   margin: 3rem auto;
   border: 0.1rem solid white;
-  background-color: #CBD5E0;
+  background-color: #cbd5e0;
   display: flex;
   height: 5rem;
   width: 40rem;
@@ -629,7 +654,7 @@ article h1 {
 .news_buttons button {
   flex: 1;
   text-align: center;
-  background-color: #CBD5E0;
+  background-color: #cbd5e0;
   border-radius: 0 1rem 1rem 0;
   border: none;
 }
@@ -640,7 +665,7 @@ article h1 {
   position: relative;
   width: 100vw;
   height: 65rem;
-  background-color: #A0AEC0;
+  background-color: #a0aec0;
   padding: 4rem;
 }
 .footer__header {
@@ -659,19 +684,19 @@ article h1 {
   margin-top: 6rem;
 }
 .footer__container {
-  background-color: #4A5568;
+  background-color: #4a5568;
   margin-right: 2rem;
   flex: 0 0 20%;
   font-size: 2rem;
   padding-top: 5rem;
   text-align: center;
-  color: #CBD5E0;
+  color: #cbd5e0;
 }
 .footer__copyright {
   width: 50%;
   margin: 0 auto;
   height: 8rem;
-  background-color: #CBD5E0;
+  background-color: #cbd5e0;
   margin-top: 5rem;
 }
 
@@ -682,7 +707,7 @@ article h1 {
   position: absolute;
   bottom: 4rem;
   left: 6rem;
-  background-color: #4A5568;
+  background-color: #4a5568;
 }
 .footer__final {
   width: 70%;
