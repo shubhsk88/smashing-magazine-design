@@ -517,3 +517,72 @@ article h1 {
   background-color: yellow;
 
 }
+
+/* Smashing Newsletter Section */
+.news {
+  width: 90vw;
+  margin: 0 auto;
+  text-align: center;
+  background-color: red;
+  border-radius: 2rem;
+  height: 120vh;
+  padding: 3rem;
+}
+
+.news_title {
+  color: white;
+  font-weight: bold;
+  font-size: 5rem;
+  margin-bottom: 2.5rem;
+  text-decoration-color: pink;
+}
+
+.news_text {
+  width: 50%;
+  border: 0.1rem solid white;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.news_paragraph {
+  color: white;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin: 2.5rem 0;
+}
+
+.news_circle {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  background-color: springgreen;
+  margin: 4rem auto;
+}
+
+.news_buttons {
+  margin: 3rem auto;
+  border: 0.1rem solid white;
+  background-color: white;
+  display: flex;
+  height: 5rem;
+  width: 40rem;
+}
+.news_email {
+  flex: 2;
+  font-size: 2rem;
+  text-align: center;
+  margin: 3rem auto;
+  padding-top: 2rm;
+  cursor: pointer;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.news_email span {
+}
+
+.news_buttons button {
+  flex: 1;
+  text-align: center;
+  background-color: white;
+  border-radius: 0 1rem 1rem 0;
+}
