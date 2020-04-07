@@ -135,17 +135,19 @@ header {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   width: 100vw;
+  height: 140rem;
 }
 
 .grid-top {
   background-color: #cbd5e0;
-  height: 60vh;
+  height: 70rem;
   display: flex;
   flex-direction: column;
 }
 .grid-width {
   margin: 10rem 15rem;
 }
+
 .grid-pic-container {
   display: flex;
   margin-bottom: 3rem;
@@ -299,8 +301,9 @@ article h1 {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-
+  height: 10rem;
   background-color: #e2e8f0;
+  border: 0.1rem solid black;
 }
 .latest_articles a {
   text-decoration: none;
@@ -325,13 +328,13 @@ article h1 {
   cursor: pointer;
 }
 
-/* Book COntainer */
+/* Book Container */
 
 .book-container {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 100vh;
+  height: 85rem;
   background-color: #e2e8f0;
   border-bottom: 1px solid #a0aec0;
 }
@@ -437,11 +440,12 @@ article h1 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   width: 100vw;
-  height: 100vh;
+  height: 60rem;
 }
 
 .person__feed {
   background-color: #e2e8f0;
+  height: 30rem;
 }
 .feed__header {
   font-size: 3rem;
@@ -490,7 +494,7 @@ article h1 {
 /* Design Systems Section */
 .design_container {
   width: 100vw;
-  background-color: red;
+  background-color: #4A5568;
   display: flex;
   padding: 3rem;
   justify-content: space-between;
@@ -529,7 +533,7 @@ article h1 {
   width: 23rem;
   background-color: white;
   height: 6rem;
-  color: blue;
+  color: #2D3748;
   font-weight: bold;
   border-radius: 1rem;
 }
@@ -537,14 +541,14 @@ article h1 {
 .design_icon {
   height: 25rem;
   width: 20rem;
-  background-color: red;
+  background-color:#4A5568;
   margin-right: 4rem;
 }
 
 .design_square {
   height: 25rem;
   width: 17rem;
-  background-color: red;
+  background-color: #2D3748;
   transform: rotate(-15deg);
   border: 0.1rem solid white;
   position: relative;
@@ -567,9 +571,9 @@ article h1 {
   width: 90vw;
   margin: 0 auto;
   text-align: center;
-  background-color: red;
+  background-color: #718096;
   border-radius: 2rem;
-  height: 120vh;
+  height: 80rem;
   padding: 3rem;
 }
 
@@ -578,12 +582,11 @@ article h1 {
   font-weight: bold;
   font-size: 5rem;
   margin-bottom: 2.5rem;
-  text-decoration-color: pink;
+  text-decoration-color: #CBD5E0;
 }
 
 .news_text {
   width: 50%;
-  border: 0.1rem solid white;
   height: 100%;
   margin: 0 auto;
 }
@@ -599,36 +602,36 @@ article h1 {
   width: 40rem;
   height: 40rem;
   border-radius: 50%;
-  background-color: springgreen;
+  background-color: #2D3748;
   margin: 4rem auto;
 }
 
 .news_buttons {
   margin: 3rem auto;
   border: 0.1rem solid white;
-  background-color: white;
+  background-color: #CBD5E0;
   display: flex;
   height: 5rem;
   width: 40rem;
+  border-radius: 1rem;
 }
 .news_email {
   flex: 2;
   font-size: 2rem;
   text-align: center;
-  margin: 3rem auto;
-  padding-top: 2rm;
+  margin: 0.8rem auto;
   cursor: pointer;
   border-radius: 1rem 0 0 1rem;
-}
-
-.news_email span {
+  height: 4rem;
+  border-right: 0.1rem solid white;
 }
 
 .news_buttons button {
   flex: 1;
   text-align: center;
-  background-color: white;
+  background-color: #CBD5E0;
   border-radius: 0 1rem 1rem 0;
+  border: none;
 }
 
 /* Footer Section */
@@ -636,14 +639,14 @@ article h1 {
 .footer {
   position: relative;
   width: 100vw;
-  height: 70vh;
-  background-color: gray;
+  height: 65rem;
+  background-color: #A0AEC0;
   padding: 4rem;
 }
 .footer__header {
   width: 40rem;
   height: 4rem;
-  background-color: yellow;
+  background-color: #718096;
   margin: auto;
 }
 
@@ -656,33 +659,36 @@ article h1 {
   margin-top: 6rem;
 }
 .footer__container {
-  background-color: yellow;
+  background-color: #4A5568;
   margin-right: 2rem;
   flex: 0 0 20%;
+  font-size: 2rem;
+  padding-top: 5rem;
+  text-align: center;
+  color: #CBD5E0;
 }
 .footer__copyright {
   width: 50%;
   margin: 0 auto;
   height: 8rem;
-  background-color: hotpink;
+  background-color: #CBD5E0;
   margin-top: 5rem;
 }
 
 .footer__logo {
-  width: 20rem;
-  height: 20rem;
+  width: 13rem;
+  height: 13rem;
   border-radius: 100%;
   position: absolute;
   bottom: 4rem;
-  left: 4rem;
-
-  background-color: hotpink;
+  left: 6rem;
+  background-color: #4A5568;
 }
 .footer__final {
   width: 70%;
-  height: 10rem;
+  height: 5rem;
   margin: 3rem auto;
-  background-color: indigo;
+  background-color: #718096;
 }
 
 .heebo {
