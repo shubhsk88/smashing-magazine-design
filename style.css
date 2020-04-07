@@ -78,24 +78,29 @@ header {
   align-items: center;
   width: 100%;
   height: 15rem;
-  background-color: blueviolet;
+  background-color: #E2E8F0;
+  ;
 }
 .header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  flex-basis: 100%;
+  margin: 0 auto;
+  width: 80vw;
 }
 .first_head {
   margin-right: 15rem;
   font-size: 4rem;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: #4A5568;
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+  width: 30vw;
+  text-align: center;
 }
 
 .right_head {
   justify-self: right;
-  margin-right: 5rem;
   display: flex;
   align-items: center;
 }
@@ -105,7 +110,7 @@ header {
   height: 6rem;
   border: 0.3rem solid white;
   border-radius: 1.5rem;
-  background-color: brown;
+  background-color: #A0AEC0;
   transform: rotate(-35deg);
 }
 
@@ -115,6 +120,14 @@ header {
   background-color: transparent;
   border: 0.2rem solid white;
   margin-left: 1.3rem;
+  border-radius: 1rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.button_head:hover {
+  background-color: #718096;
+  color: #E2E8F0;
+  cursor: pointer;
 }
 
 /* Main-Section Grid */
@@ -123,7 +136,6 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-
   width: 100vw;
 }
 
@@ -131,7 +143,6 @@ header {
   background-color: yellow;
   height: 60vh;
   display: flex;
-
   flex-direction: column;
 }
 .grid-width {
@@ -194,12 +205,12 @@ article {
   display: flex;
   width: 100%;
   height: 50rem;
-  border: 1px solid red;
-  background-color: yellowgreen;
+  background-color: #E2E8F0;
 }
 
 article h1 {
   color: grey;
+  font-size: 1.5rem;
 }
 
 .articles_contain {
@@ -216,7 +227,8 @@ article h1 {
 .article_top a {
   font-size: 2.5rem;
   font-weight: bolder;
-  color: black;
+  color: #2D3748;
+  font-family: 'Heebo', sans-serif;
 }
 
 .article_mid {
@@ -226,6 +238,7 @@ article h1 {
 .article_mid span {
   font-weight: bolder;
   font-size: 2rem;
+  font-family: 'Oswald', sans-serif;
 }
 
 .article_bottom {
@@ -234,14 +247,21 @@ article h1 {
 
 .article_bottom {
   padding-top: 2rem;
-  font-size: 3rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .arrow {
-  background-color: crimson;
+  background-color: #718096;
   width: 6rem;
   height: 2rem;
   padding-top: 6rem;
+  margin-bottom: 2rem
+}
+
+.arrow:hover {
+  background-color: #2D3748;
+  cursor: pointer;
 }
 
 /* Smash Container Grid */
@@ -252,24 +272,23 @@ article h1 {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr fr fr;
   height: 200vh;
-  border: 1px solid red;
 }
 
 .smash-contain {
-  background-color: grey;
+  background-color: #A0AEC0;
   padding: 2rem;
 }
 
 .biglogo {
   width: 25rem;
   height: 25rem;
-  background-color: tomato;
+  background-color: #2D3748;
   margin: 0 auto;
   border-radius: 50%;
 }
 
 .red {
-  background-color: red;
+  background-color: #718096;
   color: white;
   text-align: center;
 }
@@ -290,6 +309,19 @@ article h1 {
   cursor: pointer;
   padding: 2rem 0;
   border-bottom: 2px solid red;
+}
+
+.smash_arrow {
+  background-color: #718096;
+  width: 6rem;
+  height: 2rem;
+  padding-top: 6rem;
+  margin: 25rem 0 0 2rem;
+}
+
+.smash_arrow:hover {
+  background-color: #4A5568;
+  cursor: pointer;
 }
 
 /* Book COntainer */
