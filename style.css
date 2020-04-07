@@ -428,3 +428,66 @@ article h1 {
   font-size: 1.4rem;
   line-height: 1.4rem;
 }
+
+/* Design Systems Section */
+.design_container {
+  width: 100vw;
+  background-color: red;
+  display: flex;
+  padding: 3rem;
+  justify-content: space-between;
+  height: 32rem;
+  margin-top: 20rem;
+}
+
+.design_text {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.design_text_first {
+  color: white;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.design_text_title {
+  color: white;
+  font-weight: bold;
+  font-size: 5rem;
+  margin-bottom: 2.5rem;
+  text-decoration-color: pink;
+}
+
+.design_paragraph {
+  color: white;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin: 2.5rem 0;
+}
+
+.design_button {
+  width: 23rem;
+  background-color: white;
+  height: 6rem;
+  color: blue;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+
+.design_icon {
+  height: 25rem;
+  width: 20rem;
+  background-color: red;
+  margin-right: 4rem;
+}
+
+.design_square {
+  height: 25rem;
+  width: 17rem;
+  background-color: red;
+  transform: rotate(-15deg);
+  border: 0.1rem solid white;
+  position: relative;
+}
