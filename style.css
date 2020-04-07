@@ -255,9 +255,20 @@ article h1 {
 
 .latest_articles {
   width: 100%;
-  text-align: center;
-  height: 30rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
   background-color: white;
+}
+.latest_articles a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: grey;
+  cursor: pointer;
+  padding: 2rem 0;
+  border-bottom: 2px solid red;
 }
 
 /* Book COntainer */
@@ -389,7 +400,6 @@ article h1 {
 
 .person__feed {
   background-color: rgb(203, 212, 212);
-  padding: 7rem 15rem;
 }
 .feed__header {
   font-size: 3rem;
@@ -406,12 +416,14 @@ article h1 {
 }
 .person__container {
   display: flex;
+  margin: 7rem 3rem;
 }
 .feed__icon {
   margin-right: 3rem;
-  width: 12rem;
+  width: 7rem;
+  margin-bottom: 3rem;
   align-self: center;
-  height: 12rem;
+  height: 7rem;
   border: 2px solid red;
   background-color: royalblue;
   border-radius: 10px;
@@ -425,8 +437,9 @@ article h1 {
 }
 
 .feed__body {
-  font-size: 1.4rem;
-  line-height: 1.4rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  width: 80%;
 }
 
 /* Design Systems Section */
@@ -490,4 +503,17 @@ article h1 {
   transform: rotate(-15deg);
   border: 0.1rem solid white;
   position: relative;
+}
+
+.curated__posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  gap: 10px;
+  height: 80vh;
+}
+
+.guide {
+  background-color: yellow;
+
 }
