@@ -10,12 +10,13 @@ html {
 
 body {
   font-size: 1.4rem;
+  font-family: 'Heebo', sans-serif;
 }
 
 /* Nav part */
 
 .nav {
-  background-color: teal;
+  background-color: #718096;
   width: 100vw;
   height: 17rem;
   display: flex;
@@ -24,7 +25,7 @@ body {
 }
 .logo {
   width: 10rem;
-  background-color: grey;
+  background-color: #fed7d7;
   height: 8rem;
   transform: rotate(-35deg);
 }
@@ -33,21 +34,41 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.nav__description {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #f7fafc;
+}
+
+.nav__title {
+  color: #f7fafc;
+  font-size: 3rem;
+  font-weight: 600;
+}
 .nav__option > * {
   padding: 1rem;
 }
 .nav__icon {
   width: 4rem;
   height: 4rem;
-  background-color: grey;
+  background-color: #feebc8;
   border-radius: 100%;
 }
 .nav__search > input {
   border: none;
-  width: 13rem;
 
-  background-color: #bada55;
+  width: 13rem;
+  background-color: #4a5568;
+  border: 2px solid #f7fafc;
+  border-radius: 200px;
+  color: #f7fafc;
   padding: 2rem;
+  transition: all 0.2s ease-in;
+  font-size: 1.6rem;
+}
+.nav__search > input:focus {
+  width: 16rem;
 }
 
 /* Header */
@@ -515,7 +536,6 @@ article h1 {
 
 .guide {
   background-color: yellow;
-
 }
 
 /* Smashing Newsletter Section */
@@ -585,4 +605,58 @@ article h1 {
   text-align: center;
   background-color: white;
   border-radius: 0 1rem 1rem 0;
+}
+
+/* Footer Section */
+
+.footer {
+  position: relative;
+  width: 100vw;
+  height: 70vh;
+  background-color: gray;
+  padding: 4rem;
+}
+.footer__header {
+  width: 40rem;
+  height: 4rem;
+  background-color: yellow;
+  margin: auto;
+}
+
+.footer__link {
+  display: flex;
+  width: 100vw;
+  height: 20rem;
+  justify-content: center;
+
+  margin-top: 6rem;
+}
+.footer__container {
+  background-color: yellow;
+  margin-right: 2rem;
+  flex: 0 0 20%;
+}
+.footer__copyright {
+  width: 50%;
+  margin: 0 auto;
+  height: 8rem;
+  background-color: hotpink;
+  margin-top: 5rem;
+}
+
+.footer__logo {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 4rem;
+  left: 4rem;
+
+  background-color: hotpink;
+}
+.footer__final {
+  width: 70%;
+  height: 10rem;
+  margin: 3rem auto;
+  background-color: indigo;
 }
