@@ -374,3 +374,57 @@ article h1 {
   margin-bottom: 3rem;
   line-height: 2rem;
 }
+
+/* Person Comment */
+
+.person__comment {
+  display: grid;
+  margin-top: 5rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.person__feed {
+  background-color: rgb(203, 212, 212);
+  padding: 7rem 15rem;
+}
+.feed__header {
+  font-size: 3rem;
+  font-weight: bold;
+  color: grey;
+}
+
+.feed__header a {
+  text-decoration: none;
+  font-size: inherit;
+}
+.feed__title {
+  display: flex;
+}
+.person__container {
+  display: flex;
+}
+.feed__icon {
+  margin-right: 3rem;
+  width: 12rem;
+  align-self: center;
+  height: 12rem;
+  border: 2px solid red;
+  background-color: royalblue;
+  border-radius: 10px;
+  transform: rotate(-35deg);
+}
+.feed__title-header {
+  font-size: 3rem;
+  color: #333;
+  padding: 2rem 0;
+  /* margin-left: 2rem; */
+}
+
+.feed__body {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
