@@ -562,7 +562,7 @@ article h2 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
   gap: 10px;
-  height: 80vh;
+  height: 80rem;
 }
 
 .guide {
