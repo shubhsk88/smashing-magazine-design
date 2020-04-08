@@ -1,4 +1,4 @@
-# positioning-and-floating-elements
+# Design Teardown
 
 This is a Heat Map clone of the web page at [smashingmagazine.com](https://www.smashingmagazine.com/#top)
 
