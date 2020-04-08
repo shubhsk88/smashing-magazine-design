@@ -565,14 +565,15 @@ article {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
-  gap: 10px;
-  height: 80vh;
+  height: 70rem;
 }
 
 .guide {
   background-color: #f7fafc;
   padding: 4rem 6rem;
   border-right: 1px solid #cbd5e0;
+  border-bottom: 1px solid #cbd5e0;
+  height: 65rem;
 }
 
 .guide__title {
@@ -599,7 +600,7 @@ article {
 /* Smashing Newsletter Section */
 .news {
   width: 90vw;
-  margin: 0 auto;
+  margin: 0 auto 5rem;
   text-align: center;
   background-color: #718096;
   border-radius: 2rem;
